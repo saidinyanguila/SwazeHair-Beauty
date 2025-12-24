@@ -44,9 +44,10 @@ app.post("/create-checkout-session", async(req, res) => {
         payment_method_types: ["card"],
         line_items: lineItems,
         mode: "payment",
-        success_url: "http://localhost:5173/Hair-Shop/checkout/?p=1",
-        cancel_url: "http://localhost:5173/Hair-Shop/checkout/?p=0"
+        success_url: "https://saidinyanguila.github.io/SwazeHair-Beauty/checkout/?p=1",
+        cancel_url: "https://saidinyanguila.github.io/SwazeHair-Beauty/checkout/?p=0"
     });
 
     res.json({url:session.url})
+
 })
