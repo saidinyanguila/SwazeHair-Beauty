@@ -19,7 +19,7 @@ const Navbar = () => {
 			<div className="flex items-center justify-between h-16 md:h-20">
 				{/* Logo */}
 				<div className="flex items-center gap-2">
-					<a href="/Hair-Shop/" className="flex items-center gap-2">
+					<a href="/SwazeHair-Beauty/" className="flex items-center gap-2">
 						<Scissors className="h-6 w-6 text-white" />
 						<span className="font-display text-xl md:text-2xl font-semibold text-foreground">
 						Swaze Hair & Beauty
