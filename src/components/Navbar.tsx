@@ -22,20 +22,20 @@ const Navbar = () => {
 					<a href="/SwazeHair-Beauty/" className="flex items-center gap-2">
 						<Scissors className="h-6 w-6 text-white" />
 						<span className="font-display text-xl md:text-2xl font-semibold text-foreground">
-						Swaze Hair & Beauty
+							Swaze Hair & Beauty
 						</span>
 					</a>
 				</div>
 
 				{/* Desktop Navigation */}
 				<div className="hidden md:flex items-center gap-8">
-					<a href="/Hair-Shop/gallery" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
+					<a href="/gallery" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
 						Gallery
 					</a>
-					<a href="/Hair-Shop/about" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
+					<a href="/about" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
 						About Us
 					</a>
-					<a href="/Hair-Shop/services" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
+					<a href="/services" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
 						Services
 					</a>
 					<a href="tel:+27787452823" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
@@ -60,13 +60,13 @@ const Navbar = () => {
 			{isMenuOpen && (
 				<div className="md:hidden py-4 border-t border-border/30 animate-fade-in">
 					<div className="flex flex-col gap-4">
-					<a href="/Hair-Shop/gallery" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
+					<a href="/gallery" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
 						Gallery
 					</a>
-					<a href="/Hair-Shop/about" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
+					<a href="/about" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
 						About Us
 					</a>
-					<a href="/Hair-Shop/services" className="text-sm font-medium text-muted-foreground hover:text-primary  transition-colors">
+					<a href="/services" className="text-sm font-medium text-muted-foreground hover:text-primary  transition-colors">
 						Services
 					</a>
 					<a href="tel:+27787452823" className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors">

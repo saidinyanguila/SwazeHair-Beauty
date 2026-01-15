@@ -51,7 +51,6 @@ const BookingForm = () => {
 
 	const handlePayment = async (e: React.FormEvent) => {
 		const stripe = await loadStripe("pk_test_51ShD7Y2No5he7Fm9vIXdVaV4j5iQpglSFRPoHHSYyaXIhbq3e8LeidwGes9jc43ZFAU8PS6TW73zdfSMiw0C9IWT00tieCranT");
-
 		const body = {
 			products : [
 				{
@@ -62,13 +61,11 @@ const BookingForm = () => {
 			]
 		};
 
-		const headers = {
-			"Content-Type" : "application/json"
-		};
-
 		const response = await fetch(`${apiURL}/create-checkout-session`, {
 			method: "POST",
-			headers: headers,
+			headers: {
+				"Content-Type" : "application/json"
+			},
 			body:JSON.stringify(body)
 		});
 

@@ -56,7 +56,7 @@ const MiniGallery = () => {
 
       <div className="text-center mb-10 mt-16">
             <p className="text-muted-foreground max-w-2xl mx-auto">
-                Still not convinced? Check out our <a href="/Hair-Shop/gallery" className="text-primary">Gallery</a> to find the inspiration you need!
+                Still not convinced? Check out our <a href="/gallery" className="text-primary">Gallery</a> to find the inspiration you need!
             </p>
         </div>
     </section>
